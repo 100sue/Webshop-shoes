@@ -317,3 +317,22 @@ main {
         transform: translateY(1);
     }
 }
+
+@media  screen and (max-width: 1000px) {
+    main, .bar-bottom {
+        grid-template-columns: 1fr;
+    }
+    .container {
+        max-width: 700px;
+    }
+    .options {
+        justify-self: start;
+        width: 100%;
+    }
+    .controls {
+        flex-direction: column;
+    }
+    .controls div {
+        margin: 1em 0;
+    }
+}
