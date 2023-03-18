@@ -41,9 +41,14 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+nav a  {
+    color: orangered;
+}
+
 .brand {
     font-weight: 600;
     font-size: 1.5em;
+    color: orangered;
 }
 main, .bar-bottom {
     display: grid;
@@ -131,11 +136,14 @@ main {
     color: #111;
 }
 .reviews h4, .pricing h4 {
-    color: #ccc;
+    color: #cccccc;
 }
 .reviews .stars li {
     margin: 0;
     cursor: default;
+}
+.stars span {
+    color: rgb(216, 59, 2);   
 }
 .options {
     justify-self: end;
@@ -161,6 +169,7 @@ main {
 .bar-bottom {
     background: #fff;
     padding: 1.5em;
+    border-radius: 15px;
 }
 .bar-bottom div, .bar-bottom a {
     display: flex;
@@ -199,14 +208,16 @@ main {
     background: #111;
     color: #fff;
     border: none;
-    padding: 1.3em 2em;
+    border-radius: 22px;
+    padding: 1em 1.5em;
     font-size: 0.8em;
     text-transform: uppercase;
-    margin-right: 1.5em;
+    margin-right: 1em;
+    margin-left: 1em;
     transition: 0.3s;
 }
 .cart button:hover {
-    background: #000;
+    background: rgb(236, 65, 3);
 }
 
 
