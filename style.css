@@ -68,8 +68,9 @@ main {
     position: absolute;
     top: 0;
     left: 0;
-    background: #111;
-    z-index: -1;
+    background: orangered;
+    border-radius: 10px;
+    z-index: 2;
     transition: 0.3s ease;
     width: 100%;
     height: 100%;
@@ -161,13 +162,13 @@ main {
     height: 2em;
     background: red;
     border-radius: 50%;
-    border: solid 3px #f6f6f6;
+    border: solid 2px #f6f6f6;
 }
 .colors .color-active {
     border-color: #111;
 }
 .bar-bottom {
-    background: #fff;
+    background: rgb(252, 87, 27);
     padding: 1.5em;
     border-radius: 15px;
 }
@@ -205,8 +206,8 @@ main {
     justify-self: center;
 }
 .cart button {
-    background: #111;
-    color: #fff;
+    background: #ccc;
+    color: #111;
     border: none;
     border-radius: 22px;
     padding: 1em 1.5em;
@@ -214,10 +215,12 @@ main {
     text-transform: uppercase;
     margin-right: 1em;
     margin-left: 1em;
+    font-weight: 700;
     transition: 0.3s;
 }
 .cart button:hover {
-    background: rgb(236, 65, 3);
+    background: #111;
+    color: #fff;
 }
 
 
